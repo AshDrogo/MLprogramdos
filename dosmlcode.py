@@ -28,6 +28,7 @@ from sklearn.externals.six import StringIO
 
 #alternatively use pydotplus if pydot isn't working
 #use conda install pydot or pip install pydot for installing these libraries.
+#for usage of graphviz visit http://scikit-learn.org/stable/modules/tree.html
 import pydot
 dot_data = StringIO() 
 tree.export_graphviz(clf, out_file=dot_data) 
